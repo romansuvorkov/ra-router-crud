@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.post {
+  display: block;
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 15px;
+  background-color: rgb(211, 226, 255);
+}
+
+.post_link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.add_btn{
+  display: block;
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: lightcyan;
+}
+
+.main_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: black;
+}
+
+.post_view {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.close_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.post_interface {
+  display: flex;
+  justify-content: center;
+  background-color: lightcyan;
+  width: 100%;
+}
+
+.del_btn {
+  margin: 5px;
+  background-color: crimson;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.redact_btn {
+  margin: 5px;
+  background-color: rgb(1, 119, 253);
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 15px;
+}
+
+.input_wrapper {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: rgb(1, 119, 253);
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
